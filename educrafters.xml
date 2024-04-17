@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="educrafters.xslt"?>
+<EduCrafters>
+    <semesters>
+        <semester1>
+            <title> Semester 1 </title>
+            <subject>
+                <title> Applied Mathematics 1 </title>
+                <module>
+                    <title> Module 1 : Complex Numbers </title>
+                    <description> Complex numbers are the numbers that are expressed in the form of a+ib where, a,b are real numbers and 'i' is an imaginary number called “iota”. </description>
+                </module>
+                <module>
+                    <title> Module 2 : Centroid </title>
+                    <description> A centroid is the geometric center of a geometric object: a one-dimensional curve, a two-dimensional area or a three-dimensional volume. Centroids are useful for many situations in Statics and subsequent courses, including the analysis of distributed forces, beam bending, and shaft torsion. </description>
+                </module>
+            </subject>
+
+            <subject>
+                <title> Engineering Mechanics </title>
+                <module>
+                    <title> Module 1 : System of Forces </title>
+                    <description> A system of forces refers to a collection of individual forces acting on an object or system. These forces can be external forces applied to the object from the surrounding environment or internal forces generated within the object itself. </description>
+                </module>
+                <module>
+                    <title> Module 2 : Matrices </title>
+                    <description> Matrix, a set of numbers arranged in rows and columns so as to form a rectangular array. </description>
+                </module>
+            </subject>
+        </semester1>
+        
+        <semester2>
+            <title> Semester 2 </title>
+            <subject>
+                <title> Applied Mathematics 2 </title>
+                <module>
+                    <title> Module 1 : Integration </title>
+                    <description> Integration is the act of bringing together smaller components or information stored in different subsystems into a single functioning unit. </description>
+                </module>
+                <module>
+                    <title> Module 2 : Differentiation </title>
+                    <description> Differentiation is a method used to compute the rate of change of a function f(x) with respect to its input x . </description>
+                </module>
+            </subject>
+
+            <subject>
+                <title> Applied Mathematics 2 </title>
+                <module>
+                    <title> Module 1 : DC Circuits </title>
+                    <description> Direct Current Circuit or DC Circuit is a closed electrical circuit in which the flow of electricity is in one direction. DC Circuit has a DC Power Supply which produces Direct Current in the circuit. As opposed to alternating current, Direct Current has a fixed magnitude and flows in one direction only. </description>
+                </module>
+                <module>
+                    <title> Module 2 : AC Circuits </title>
+                    <description> An AC (Alternating Current) circuit is a type of electrical circuit that alternates the direction of the current flow. This means that the current in an AC circuit periodically changes direction, flowing in one direction for a certain period and then reversing direction. This characteristic is what differentiates AC circuits from DC (Direct Current) circuits, where the current flows in one direction only. </description>
+                </module>
+            </subject>
+        </semester2>
+    </semesters>
+</EduCrafters>

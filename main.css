@@ -1,0 +1,83 @@
+body {
+    background-color: #caf0f8;
+    margin: 0;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('main.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+.topnav {
+    background-color: #023e8a;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-flow: row wrap;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 140px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #edf2f4;
+    color: black;
+}
+
+/* Style for the header section */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #caf0f8;
+    padding: 0px;
+    font-size: 30px;
+}
+
+/* Apply styles to the logo image */
+.logo img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    padding: 0px 0px;
+}
+
+/* Style for the website name */
+.site-name {
+    margin: 0;
+    flex-grow: 1;
+    /* Allow the h1 element to grow and take up the available space */
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 17px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

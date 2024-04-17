@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Feedback Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img id="logoImg" src="Logo4.png" alt="Logo" />
+        </div>
+        <h1 class="site-name">EduCrafters</h1>
+    </div>
+
+    <div class="topnav">
+        <div><a class="active" href="index.html">Home</a></div>
+        <div><a href="Semester.html">Semesters</a></div>
+        <div><a href="Feedback.html">Feedback</a></div>
+        <div><a href="index.html#section1">Career Paths</a></div>
+        <div><a href="index.html#section3">Contact Us</a></div>
+        <div><a href="LoginForm.html">Login/Signup</a></div>
+    </div>
+i
+    <div class="content">
+
+        <div class="form-container">
+            <center>
+                <h1> Feedback Form </h1>
+                <p><b>Please share your valuable feedback with us.</b></p>
+            </center>
+            <form onsubmit="return validateForm()" action="index.html">
+
+                <label for="fname"><b>First name :</b></label><br>
+                <input type="text" id="fname" name="fname" required><br><br>
+
+                <label for="lname"><b>Last name :</b></label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+
+                <label for="email"><b>Email ID :</b></label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="gender"><b>Gender</b></label><br>
+                <input type="radio" id="11" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="12" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="13" name="gender" value="others">
+                <label for="others">Others</label><br><br>
+
+
+                <label><b>Subjects Learned :</b></label><br>
+                <input type="checkbox" id="sub1" name="sub1" value="sub1">
+                <label for="sub1">Subject 1</label><br>
+                <input type="checkbox" id="sub2" name="sub2" value="sub2">
+                <label for="sub2">Subject 2</label><br><br>
+
+                <label><b>Modules Learned in Subject 1 :</b></label><br>
+                <input type="checkbox" id="mod1sub1" name="mod1sub1" value="mod1sub1">
+                <label for="mod1sub1">Module 1</label><br>
+                <input type="checkbox" id="mod2sub1" name="mod2sub1" value="mod2sub1">
+                <label for="mod2sub1">Module 2</label><br><br>
+
+                <label><b>Modules Learned in Subject 2 :</b></label><br>
+                <input type="checkbox" id="mod1sub2" name="mod1sub2" value="mod1sub2">
+                <label for="mod1sub2">Module 1</label><br>
+                <input type="checkbox" id="mod2sub2" name="mod2sub2" value="mod2sub2">
+                <label for="mod2sub2">Module 2</label><br><br>
+
+                <label for="experience"><b>How was your experience ?</b></label><br>
+                <input type="radio" id="1" name="experience" value="1">
+                <label for="1">Highly Satisfied 😊</label><br>
+                <input type="radio" id="2" name="experience" value="2">
+                <label for="2">Satisfied 🙂</label><br>
+                <input type="radio" id="3" name="experience" value="3">
+                <label for="3">Neither Satisfied Nor Dissatisfied 😐</label><br>
+                <input type="radio" id="4" name="experience" value="4">
+                <label for="4">Dissatisfied 😞</label><br>
+                <input type="radio" id="5" name="experience" value="5">
+                <label for="5">Highly Dissatisfied 😔</label><br><br>
+
+                <label><b>Write any comments :</b></label><br>
+                <textarea id="comments" name="comment" rows="10" cols="45"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+    <script src="Feedback.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

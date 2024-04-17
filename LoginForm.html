@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="LoginForm.css">
+    <script src="LoginForm.js"></script>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <br><br>
+            <center><h2>Login</h2></center>
+            <form onsubmit="return validateForm()" action="index.html">
+                <div class="form-group">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+                <br><br><br><br>
+            </form>
+        </div>
+        <div class="text-container">
+            <h2>Welcome Back !</h2>
+            <p>Welcome back ! We are so happy to have you here. It's great to see you again. We hope you had a safe and enjoyable time away.</p>
+        </div>
+    </div>
+</body>
+
+</html>
